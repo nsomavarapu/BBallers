@@ -1,0 +1,25 @@
+@relation player_diff-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
+
+@attribute AST numeric
+@attribute BLK numeric
+@attribute DREB numeric
+@attribute FG3A numeric
+@attribute FG3M numeric
+@attribute FG3_PCT numeric
+@attribute FGA numeric
+@attribute FGM numeric
+@attribute FG_PCT numeric
+@attribute FTA numeric
+@attribute FTM numeric
+@attribute FT_PCT numeric
+@attribute OREB numeric
+@attribute PF numeric
+@attribute PLUS_MINUS numeric
+@attribute PTS numeric
+@attribute REB numeric
+@attribute STL numeric
+@attribute TOV numeric
+@attribute WL {-1,1}
+
+@data
+-499.0,-165.0,-190.0,-70.0,-157.0,5.117,-264.0,-303.0,-60.779,-29.0,-44.0,-40.085,41.0,-25.0,-2059.0,-807.0,-149.0,-144.0,-171.0,-1

@@ -1,0 +1,33 @@
+,AST,FG2A,FG2M,FG2_PCT,FG3A,FG3M,FG3_PCT,FGA,FGM,FG_PCT,FREQUENCY,G,PASS,PASS_FROM,PASS_TEAMMATE_PLAYER_ID,PASS_TO,PASS_TYPE,TEAM_ID,TEAM_NAME
+0,583,889,504,0.567,659,274,0.416,1548,778,0.503,0.196,80,5122,"Green, Draymond",203110,,made,1610612744,Golden State Warriors
+1,522,746,403,0.54,426,169,0.397,1172,572,0.488,0.169,78,4415,"Curry, Stephen",201939,,made,1610612744,Golden State Warriors
+2,235,437,226,0.517,194,80,0.412,631,306,0.485,0.097,77,2550,"Livingston, Shaun",2733,,made,1610612744,Golden State Warriors
+3,159,275,150,0.545,206,97,0.471,481,247,0.514,0.08,69,2088,"Bogut, Andrew",101106,,made,1610612744,Golden State Warriors
+4,213,349,190,0.544,211,101,0.479,560,291,0.52,0.079,64,2074,"Iguodala, Andre",2738,,made,1610612744,Golden State Warriors
+5,164,284,155,0.546,157,63,0.401,441,218,0.494,0.076,79,1989,"Thompson, Klay",202691,,made,1610612744,Golden State Warriors
+6,116,198,105,0.53,168,73,0.435,366,178,0.486,0.075,65,1962,"Barnes, Harrison",203084,,made,1610612744,Golden State Warriors
+7,61,147,77,0.524,60,24,0.4,207,101,0.488,0.043,71,1122,"Speights, Marreese",201578,,made,1610612744,Golden State Warriors
+8,82,168,82,0.488,89,29,0.326,257,111,0.432,0.042,68,1087,"Barbosa, Leandro",2571,,made,1610612744,Golden State Warriors
+9,57,120,63,0.525,72,31,0.431,192,94,0.49,0.039,69,1030,"Rush, Brandon",201575,,made,1610612744,Golden State Warriors
+10,63,106,56,0.528,57,30,0.526,163,86,0.528,0.033,65,851,"Clark, Ian",203546,,made,1610612744,Golden State Warriors
+11,29,79,34,0.43,61,26,0.426,140,60,0.429,0.032,45,838,"Ezeli, Festus",203105,,made,1610612744,Golden State Warriors
+12,16,34,17,0.5,17,7,0.412,51,24,0.471,0.015,37,400,"McAdoo, James Michael",203949,,made,1610612744,Golden State Warriors
+13,19,42,23,0.548,23,6,0.261,65,29,0.446,0.013,27,331,"Thompson, Jason",201574,,made,1610612744,Golden State Warriors
+14,15,36,17,0.472,31,12,0.387,67,29,0.433,0.01,22,270,"Varejao, Anderson",2760,,made,1610612744,Golden State Warriors
+15,0,3,1,0.333,2,0,0.0,5,1,0.2,0.001,5,36,"Looney, Kevon",1626172,,made,1610612744,Golden State Warriors
+0,365,592,335,0.566,802,371,0.463,1394,706,0.506,0.206,78,5381,,201939,"Curry, Stephen",received,1610612744,Golden State Warriors
+1,276,434,236,0.544,251,97,0.386,685,333,0.486,0.16,80,4193,,203110,"Green, Draymond",received,1610612744,Golden State Warriors
+2,519,691,354,0.512,613,263,0.429,1304,617,0.473,0.118,79,3075,,202691,"Thompson, Klay",received,1610612744,Golden State Warriors
+3,95,331,185,0.559,11,2,0.182,342,187,0.547,0.1,77,2608,,2733,"Livingston, Shaun",received,1610612744,Golden State Warriors
+4,127,182,108,0.593,148,53,0.358,330,161,0.488,0.076,64,1977,,2738,"Iguodala, Andre",received,1610612744,Golden State Warriors
+5,209,383,196,0.512,204,80,0.392,587,276,0.47,0.07,65,1839,,203084,"Barnes, Harrison",received,1610612744,Golden State Warriors
+6,132,207,137,0.662,1,1,1.0,208,138,0.663,0.051,69,1338,,101106,"Bogut, Andrew",received,1610612744,Golden State Warriors
+7,128,236,119,0.504,109,39,0.358,345,158,0.458,0.05,68,1319,,2571,"Barbosa, Leandro",received,1610612744,Golden State Warriors
+8,162,334,152,0.455,61,24,0.393,395,176,0.446,0.045,71,1178,,201578,"Speights, Marreese",received,1610612744,Golden State Warriors
+9,55,106,57,0.538,79,27,0.342,185,84,0.454,0.038,64,982,,203546,"Clark, Ian",received,1610612744,Golden State Warriors
+10,104,94,43,0.457,150,63,0.42,244,106,0.434,0.035,69,907,,201575,"Rush, Brandon",received,1610612744,Golden State Warriors
+11,99,179,108,0.603,0,0,0.0,179,108,0.603,0.023,45,605,,203105,"Ezeli, Festus",received,1610612744,Golden State Warriors
+12,35,65,36,0.554,2,1,0.5,67,37,0.552,0.012,37,303,,203949,"McAdoo, James Michael",received,1610612744,Golden State Warriors
+13,12,35,16,0.457,0,0,0.0,35,16,0.457,0.009,28,237,,201574,"Thompson, Jason",received,1610612744,Golden State Warriors
+14,14,40,19,0.475,0,0,0.0,40,19,0.475,0.008,22,199,,2760,"Varejao, Anderson",received,1610612744,Golden State Warriors
+15,2,4,2,0.5,2,1,0.5,6,3,0.5,0.001,5,24,,1626172,"Looney, Kevon",received,1610612744,Golden State Warriors

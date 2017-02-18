@@ -1,0 +1,37 @@
+,AST,FG2A,FG2M,FG2_PCT,FG3A,FG3M,FG3_PCT,FGA,FGM,FG_PCT,FREQUENCY,G,PASS,PASS_FROM,PASS_TEAMMATE_PLAYER_ID,PASS_TO,PASS_TYPE,TEAM_ID,TEAM_NAME
+0,736,1086,601,0.553,612,238,0.389,1698,839,0.494,0.193,74,4562,"Paul, Chris",101108,,made,1610612746,Los Angeles Clippers
+1,90,453,231,0.51,121,46,0.38,574,277,0.483,0.138,77,3274,"Jordan, DeAndre",201599,,made,1610612746,Los Angeles Clippers
+2,170,339,154,0.454,202,85,0.421,541,239,0.442,0.089,35,2099,"Griffin, Blake",201933,,made,1610612746,Los Angeles Clippers
+3,183,375,205,0.547,185,64,0.346,560,269,0.48,0.082,79,1938,"Crawford, Jamal",2037,,made,1610612746,Los Angeles Clippers
+4,99,234,102,0.436,162,54,0.333,396,156,0.394,0.076,67,1802,"Rivers, Austin",203085,,made,1610612746,Los Angeles Clippers
+5,130,309,146,0.472,149,57,0.383,458,203,0.443,0.066,59,1563,"Prigioni, Pablo",203143,,made,1610612746,Los Angeles Clippers
+6,106,248,132,0.532,145,47,0.324,393,179,0.455,0.063,75,1487,"Redick, JJ",200755,,made,1610612746,Los Angeles Clippers
+7,49,165,74,0.448,106,36,0.34,271,110,0.406,0.06,80,1421,"Johnson, Wesley",202325,,made,1610612746,Los Angeles Clippers
+8,71,177,88,0.497,115,36,0.313,292,124,0.425,0.055,68,1298,"Pierce, Paul",1718,,made,1610612746,Los Angeles Clippers
+9,50,178,77,0.433,84,34,0.405,262,111,0.424,0.054,59,1272,"Aldrich, Cole",202332,,made,1610612746,Los Angeles Clippers
+10,30,109,51,0.468,62,24,0.387,171,75,0.439,0.034,69,815,"Mbah a Moute, Luc",201601,,made,1610612746,Los Angeles Clippers
+11,39,88,52,0.591,49,24,0.49,137,76,0.555,0.028,27,655,"Green, Jeff",201145,,made,1610612746,Los Angeles Clippers
+12,42,113,63,0.558,42,9,0.214,155,72,0.465,0.028,31,655,"Smith, Josh",2746,,made,1610612746,Los Angeles Clippers
+13,60,100,56,0.56,60,17,0.283,160,73,0.456,0.022,43,518,"Stephenson, Lance",202362,,made,1610612746,Los Angeles Clippers
+14,5,18,11,0.611,12,3,0.25,30,14,0.467,0.007,17,154,"Ayres, Jeff",201965,,made,1610612746,Los Angeles Clippers
+15,10,21,14,0.667,13,4,0.308,34,18,0.529,0.006,19,140,"Wilcox, CJ",203912,,made,1610612746,Los Angeles Clippers
+16,0,2,1,0.5,1,1,1.0,3,2,0.667,0.001,5,17,"Dawson, Branden",1626183,,made,1610612746,Los Angeles Clippers
+17,0,0,0,0.0,0,0,0.0,0,0,0.0,0.0,1,4,"Johnson, Orlando",1962937406,,made,1610612746,Los Angeles Clippers
+0,86,691,343,0.496,301,112,0.372,992,455,0.459,0.231,74,5471,,101108,"Paul, Chris",received,1610612746,Los Angeles Clippers
+1,152,558,240,0.43,334,115,0.344,892,355,0.398,0.113,79,2671,,2037,"Crawford, Jamal",received,1610612746,Los Angeles Clippers
+2,373,450,217,0.482,415,199,0.48,865,416,0.481,0.093,75,2199,,200755,"Redick, JJ",received,1610612746,Los Angeles Clippers
+3,107,299,149,0.498,180,61,0.339,479,210,0.438,0.089,67,2112,,203085,"Rivers, Austin",received,1610612746,Los Angeles Clippers
+4,192,525,261,0.497,18,6,0.333,543,267,0.492,0.085,35,2004,,201933,"Griffin, Blake",received,1610612746,Los Angeles Clippers
+5,279,364,292,0.802,0,0,0.0,364,292,0.802,0.072,77,1714,,201599,"Jordan, DeAndre",received,1610612746,Los Angeles Clippers
+6,20,36,17,0.472,88,26,0.295,124,43,0.347,0.06,58,1431,,203143,"Prigioni, Pablo",received,1610612746,Los Angeles Clippers
+7,193,188,98,0.521,307,103,0.336,495,201,0.406,0.052,80,1236,,202325,"Johnson, Wesley",received,1610612746,Los Angeles Clippers
+8,105,150,68,0.453,238,74,0.311,388,142,0.366,0.051,68,1212,,1718,"Pierce, Paul",received,1610612746,Los Angeles Clippers
+9,104,187,112,0.599,0,0,0.0,187,112,0.599,0.035,59,836,,202332,"Aldrich, Cole",received,1610612746,Los Angeles Clippers
+10,61,162,71,0.438,76,25,0.329,238,96,0.403,0.03,27,721,,201145,"Green, Jeff",received,1610612746,Los Angeles Clippers
+11,87,145,75,0.517,40,13,0.325,185,88,0.476,0.027,69,650,,201601,"Mbah a Moute, Luc",received,1610612746,Los Angeles Clippers
+12,31,92,47,0.511,45,19,0.422,137,66,0.482,0.024,43,565,,202362,"Stephenson, Lance",received,1610612746,Los Angeles Clippers
+13,51,104,42,0.404,55,18,0.327,159,60,0.377,0.024,32,561,,2746,"Smith, Josh",received,1610612746,Los Angeles Clippers
+14,19,42,16,0.381,22,8,0.364,64,24,0.375,0.008,21,181,,203912,"Wilcox, CJ",received,1610612746,Los Angeles Clippers
+15,9,19,9,0.474,1,0,0.0,20,9,0.45,0.004,14,93,,201965,"Ayres, Jeff",received,1610612746,Los Angeles Clippers
+16,1,3,1,0.333,0,0,0.0,3,1,0.333,0.001,6,13,,1626183,"Dawson, Branden",received,1610612746,Los Angeles Clippers
+17,0,0,0,0.0,0,0,0.0,0,0,0.0,0.0,2,3,,1962937406,"Johnson, Orlando",received,1610612746,Los Angeles Clippers

@@ -1,0 +1,183 @@
+
+{% load staticfiles %}
+
+<html>
+<script type="text/javascript" src="{% static "predictorApp/bower_components/jquery/dist/jquery.min.js" %}"></script>
+<script type="text/javascript" src="{% static "predictorApp/bower_components/jquery-bracket/dist/jquery.bracket.min.js" %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static "predictorApp/bower_components/jquery-bracket/dist/jquery.bracket.min.css" %}"/>
+
+
+
+<div class="containerBracket" style="height: 100%;">
+<div class="Bracket" id="Bracket" style="float: left; width: 40%;">
+<script>
+
+$(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+});
+
+var teams = new Array(8);
+var teamsRemaining = [];
+var results = [];
+var singleElimination = {};
+var tempResults = [];
+var tempTeamsRemaining = [];
+
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+var csrftoken = getCookie('csrftoken');
+
+
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+    }
+});
+
+function onclick(teamAbbrs) {
+  /* Make the iframe visible */
+  var iframe = document.getElementById("dataVisualization");
+  iframe.contentWindow.teamClickMatchupHighlight(teamAbbrs);
+}
+
+function fillRight(teams) {
+  for (var i = 0; i < teams.length; i++) {
+    var teamAbbr = teams[i][0];
+    var teamlogoStaticUrl ="{% static "predictorApp/NBA-Visualization-gh-pages/logo/" %}"
+    var teamlogoUrl = teamlogoStaticUrl + teamAbbr + "_logo.svg";
+
+    var crate_img = document.createElement("IMG");
+        crate_img.setAttribute("src", teamlogoUrl);
+        crate_img.setAttribute("style", "width: 168px; height: 110px;")
+        document.getElementById("TeamLogos").appendChild(crate_img);
+  }
+
+  for (var i = 0; i < teams.length; i++) {
+    var teamAbbr = teams[i][1];
+    var teamlogoStaticUrl ="{% static "predictorApp/NBA-Visualization-gh-pages/logo/" %}"
+    var teamlogoUrl = teamlogoStaticUrl + teamAbbr + "_logo.svg";
+
+    var crate_img = document.createElement("IMG");
+        crate_img.setAttribute("src", teamlogoUrl);
+        crate_img.setAttribute("style", "width: 168px; height: 110px;")
+        document.getElementById("TeamLogos").appendChild(crate_img);
+  }
+  document.getElementById("PlayoffsImage").style.visibility = "visible";
+}
+
+var getTeams =  function() {
+  return $.ajax({
+      url : "postTeams/",
+      type: "POST",
+      data: {
+            csrfmiddlewaretoken: '{{ csrf_token }}'
+            // all of this data is submitted via POST to your view.
+            // in django, request.POST['background-color'] 
+      },
+
+      success : function(json) {
+        var array = json['result'].split(/[,\"\[\]]+/);
+        var counter = 0;
+        for (var i = 1; i < array.length - 1; i= i + 2) {
+          var trimmed1 = array[i].trim();
+          var trimmed2 = array[i + 1].trim();
+          var match = [trimmed1, trimmed2];
+          teams[counter] = match;
+          counter = counter + 1;
+        }
+        
+        
+      },
+
+      error : function(xhr, errmsg, err) {
+        console.log(xhr.status + ": " + xhr.responseText);
+      }
+    });
+
+}
+
+function getResults() {
+
+  return $.ajax({
+      url : "postResults/",
+      type: "POST",
+      data: {
+            csrfmiddlewaretoken: '{{ csrf_token }}',
+            teams: JSON.stringify(teams)
+            // all of this data is submitted via POST to your view.
+            // in django, request.POST['background-color'] 
+      },
+
+      success : function(json) {
+
+      results = json['data']
+      },
+
+      error : function(xhr, errmsg, err) {
+        console.log(xhr.status + ": " + xhr.responseText);
+      }
+    });
+}
+
+
+  $.when(
+    getTeams() 
+  ).then( function () {
+    $.when(getResults()).then(function() {
+
+    console.log(teams);
+    console.log(results);
+    singleElimination["teams"] = teams;
+    singleElimination["results"] = results;
+    fillRight(teams)
+
+    $('#Bracket').bracket({
+        init: singleElimination,
+        skipConsolationRound: true/*,
+        onMatchClick: onclick*//* data to initialize the bracket with */ 
+      });
+
+    });
+    
+    }
+  );
+</script>
+
+
+</div>
+
+<div id="Matchup" class="Matchup" style="float: right; width: 50%;">
+<div id="NBAPlayoffs">
+<img id="PlayoffsImage" src="{% static "predictorApp/NBA-Visualization-gh-pages/logo/NBAPlayoffs.png" %}" style="visibility: hidden; display:block; margin:auto; height: 125px;"></img>
+</div>
+<div id="TeamLogos" style="display: flex; flex-wrap: wrap;">
+</div>
+</div>
+</div>
+
+  <div class = "iframContainter" style="float: right; width: 100%; height: 100%; position: relative;">
+  <iframe id="dataVisualization" class="data" src="{% static "predictorApp/NBA-Visualization-gh-pages/happy.html" %}" frameborder="0" scrolling="no" style="position: absolute; top: 0; bottom: 0;left: 0; right: 0; height: 100%; width: 100%;">
+  </iframe>
+  </div>
+
+</html>
+

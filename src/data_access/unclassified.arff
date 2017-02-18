@@ -1,0 +1,23 @@
+@attribute AST numeric
+@attribute BLK numeric
+@attribute DREB numeric
+@attribute FG3A numeric
+@attribute FG3M numeric
+@attribute FG3_PCT numeric
+@attribute FGA numeric
+@attribute FGM numeric
+@attribute FG_PCT numeric
+@attribute FTA numeric
+@attribute FTM numeric
+@attribute FT_PCT numeric
+@attribute OREB numeric
+@attribute PF numeric
+@attribute PLUS_MINUS numeric
+@attribute PTS numeric
+@attribute REB numeric
+@attribute STL numeric
+@attribute TOV numeric
+@attribute WL {-1,1}
+
+@data
+337.0,137.0,147.0,969.0,465.0,9.71,483.0,385.0,41.693,-197.0,-49.0,27.209,5.0,86.0,4044.0,1186.0,152.0,34.0,25.0,0

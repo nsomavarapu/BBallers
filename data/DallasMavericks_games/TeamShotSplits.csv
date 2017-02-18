@@ -1,0 +1,75 @@
+,BLKA,CFID,CFPARAMS,EFG_PCT,FG3A,FG3M,FG3_PCT,FGA,FGM,FG_PCT,GROUP_SET,GROUP_VALUE,PCT_AST_2PM,PCT_AST_3PM,PCT_AST_FGM,PCT_UAST_2PM,PCT_UAST_3PM,PCT_UAST_FGM
+0,363,170,2015-16,0.502,2342,806,0.344,6900,3064,0.444,Overall,2015-16,0.5,0.85,0.592,0.5,0.15,0.408
+0,262,171,Less Than 5 ft.,0.603,0,0,0.0,2028,1222,0.603,Shot Distance (5ft),Less Than 5 ft.,0.543,0.0,0.543,0.457,0.0,0.457
+1,68,171,5-9 ft.,0.38,0,0,0.0,673,256,0.38,Shot Distance (5ft),5-9 ft.,0.25,0.0,0.25,0.75,0.0,0.75
+2,10,171,10-14 ft.,0.427,0,0,0.0,599,256,0.427,Shot Distance (5ft),10-14 ft.,0.363,0.0,0.363,0.637,0.0,0.637
+3,9,171,15-19 ft.,0.426,0,0,0.0,987,420,0.426,Shot Distance (5ft),15-19 ft.,0.6,0.0,0.6,0.4,0.0,0.4
+4,11,171,20-24 ft.,0.523,1483,542,0.365,1754,646,0.368,Shot Distance (5ft),20-24 ft.,0.529,0.884,0.827,0.471,0.116,0.173
+5,3,171,25-29 ft.,0.479,821,262,0.319,821,262,0.319,Shot Distance (5ft),25-29 ft.,0.0,0.779,0.779,0.0,0.221,0.221
+6,0,171,30-34 ft.,0.0,10,0,0.0,10,0,0.0,Shot Distance (5ft),30-34 ft.,0.0,0.0,0.0,0.0,0.0,0.0
+7,0,171,35-39 ft.,0.0,4,0,0.0,4,0,0.0,Shot Distance (5ft),35-39 ft.,0.0,0.0,0.0,0.0,0.0,0.0
+8,0,171,40+ ft.,0.0,22,0,0.0,22,0,0.0,Shot Distance (5ft),40+ ft.,0.0,0.0,0.0,0.0,0.0,0.0
+0,316,172,Less Than 8 ft.,0.563,0,0,0.0,2476,1393,0.563,Shot Distance (8ft),Less Than 8 ft.,0.503,0.0,0.503,0.497,0.0,0.497
+1,26,172,8-16 ft.,0.418,0,0,0.0,990,414,0.418,Shot Distance (8ft),8-16 ft.,0.372,0.0,0.372,0.628,0.0,0.628
+2,10,172,16-24 ft.,0.413,1,0,0.0,1093,451,0.413,Shot Distance (8ft),16-24 ft.,0.605,0.0,0.605,0.395,0.0,0.395
+3,11,172,24+ ft.,0.52,2320,804,0.347,2320,804,0.347,Shot Distance (8ft),24+ ft.,0.0,0.85,0.85,0.0,0.15,0.15
+4,0,172,Back Court Shot,0.0,19,0,0.0,19,0,0.0,Shot Distance (8ft),Back Court Shot,0.0,0.0,0.0,0.0,0.0,0.0
+0,227,173,Restricted Area,0.621,0,0,0.0,1871,1161,0.621,Shot Area,Restricted Area,0.559,0.0,0.559,0.441,0.0,0.441
+1,97,173,In The Paint (Non-RA),0.417,0,0,0.0,953,397,0.417,Shot Area,In The Paint (Non-RA),0.259,0.0,0.259,0.741,0.0,0.741
+2,28,173,Mid-Range,0.403,1,0,0.0,1735,700,0.403,Shot Area,Mid-Range,0.537,0.0,0.537,0.463,0.0,0.463
+3,4,173,Left Corner 3,0.535,314,112,0.357,314,112,0.357,Shot Area,Left Corner 3,0.0,0.991,0.991,0.0,0.009,0.009
+4,3,173,Right Corner 3,0.651,205,89,0.434,205,89,0.434,Shot Area,Right Corner 3,0.0,0.966,0.966,0.0,0.034,0.034
+5,4,173,Above the Break 3,0.502,1803,603,0.334,1803,603,0.334,Shot Area,Above the Break 3,0.0,0.806,0.806,0.0,0.194,0.194
+6,0,173,Backcourt,0.0,17,0,0.0,17,0,0.0,Shot Area,Backcourt,0.0,0.0,0.0,0.0,0.0,0.0
+0,0,169,Assisted,1.189,685,685,1.0,1813,1813,1.0,Assisted Shot,Assisted,1.0,1.0,1.0,0.0,0.0,0.0
+1,0,169,Unassisted,1.048,121,121,1.0,1251,1251,1.0,Assisted Shot,Unassisted,0.0,0.0,0.0,1.0,1.0,1.0
+0,0,174,Alley Oop Dunk Shot,0.92,0,0,0.0,50,46,0.92,Shot Type,Alley Oop Dunk Shot,1.0,0.0,1.0,0.0,0.0,0.0
+1,0,174,Alley Oop Layup shot,0.708,0,0,0.0,24,17,0.708,Shot Type,Alley Oop Layup shot,1.0,0.0,1.0,0.0,0.0,0.0
+2,1,174,Cutting Dunk Shot,0.976,0,0,0.0,42,41,0.976,Shot Type,Cutting Dunk Shot,1.0,0.0,1.0,0.0,0.0,0.0
+3,0,174,Cutting Finger Roll Layup Shot,0.96,0,0,0.0,25,24,0.96,Shot Type,Cutting Finger Roll Layup Shot,0.917,0.0,0.917,0.083,0.0,0.083
+4,16,174,Cutting Layup Shot,0.793,0,0,0.0,169,134,0.793,Shot Type,Cutting Layup Shot,1.0,0.0,1.0,0.0,0.0,0.0
+5,0,174,Driving Bank Hook Shot,0.571,0,0,0.0,7,4,0.571,Shot Type,Driving Bank Hook Shot,0.0,0.0,0.0,1.0,0.0,1.0
+6,4,174,Driving Bank shot,0.512,0,0,0.0,123,63,0.512,Shot Type,Driving Bank shot,0.095,0.0,0.095,0.905,0.0,0.905
+7,1,174,Driving Dunk Shot,0.95,0,0,0.0,20,19,0.95,Shot Type,Driving Dunk Shot,0.526,0.0,0.526,0.474,0.0,0.474
+8,6,174,Driving Finger Roll Layup Shot,0.719,0,0,0.0,89,64,0.719,Shot Type,Driving Finger Roll Layup Shot,0.281,0.0,0.281,0.719,0.0,0.719
+9,0,174,Driving Floating Bank Jump Shot,0.52,1,0,0.0,25,13,0.52,Shot Type,Driving Floating Bank Jump Shot,0.231,0.0,0.231,0.769,0.0,0.769
+10,30,174,Driving Floating Jump Shot,0.384,0,0,0.0,185,71,0.384,Shot Type,Driving Floating Jump Shot,0.141,0.0,0.141,0.859,0.0,0.859
+11,1,174,Driving Hook Shot,0.633,0,0,0.0,30,19,0.633,Shot Type,Driving Hook Shot,0.263,0.0,0.263,0.737,0.0,0.737
+12,1,174,Driving Jump shot,0.5,0,0,0.0,2,1,0.5,Shot Type,Driving Jump shot,0.0,0.0,0.0,1.0,0.0,1.0
+13,57,174,Driving Layup Shot,0.57,0,0,0.0,433,247,0.57,Shot Type,Driving Layup Shot,0.251,0.0,0.251,0.749,0.0,0.749
+14,0,174,Driving Reverse Dunk Shot,1.0,0,0,0.0,1,1,1.0,Shot Type,Driving Reverse Dunk Shot,1.0,0.0,1.0,0.0,0.0,0.0
+15,6,174,Driving Reverse Layup Shot,0.583,0,0,0.0,60,35,0.583,Shot Type,Driving Reverse Layup Shot,0.429,0.0,0.429,0.571,0.0,0.571
+16,5,174,Dunk Shot,0.898,0,0,0.0,59,53,0.898,Shot Type,Dunk Shot,0.887,0.0,0.887,0.113,0.0,0.113
+17,0,174,Fadeaway Bank shot,0.5,0,0,0.0,12,6,0.5,Shot Type,Fadeaway Bank shot,0.333,0.0,0.333,0.667,0.0,0.667
+18,2,174,Fadeaway Jump Shot,0.448,5,2,0.4,201,89,0.443,Shot Type,Fadeaway Jump Shot,0.379,1.0,0.393,0.621,0.0,0.607
+19,0,174,Finger Roll Layup Shot,0.923,0,0,0.0,13,12,0.923,Shot Type,Finger Roll Layup Shot,0.583,0.0,0.583,0.417,0.0,0.417
+20,11,174,Floating Jump shot,0.497,1,0,0.0,161,80,0.497,Shot Type,Floating Jump shot,0.3,0.0,0.3,0.7,0.0,0.7
+21,0,174,Hook Bank Shot,1.0,0,0,0.0,1,1,1.0,Shot Type,Hook Bank Shot,1.0,0.0,1.0,0.0,0.0,0.0
+22,1,174,Hook Shot,0.306,0,0,0.0,49,15,0.306,Shot Type,Hook Shot,0.467,0.0,0.467,0.533,0.0,0.533
+23,0,174,Jump Bank Shot,0.549,11,6,0.545,51,25,0.49,Shot Type,Jump Bank Shot,0.526,1.0,0.64,0.474,0.0,0.36
+24,88,174,Jump Shot,0.432,2122,708,0.334,3316,1079,0.325,Shot Type,Jump Shot,0.765,0.897,0.852,0.235,0.103,0.148
+25,70,174,Layup Shot,0.435,0,0,0.0,306,133,0.435,Shot Type,Layup Shot,0.759,0.0,0.759,0.241,0.0,0.241
+26,0,174,Pullup Bank shot,0.556,0,0,0.0,9,5,0.556,Shot Type,Pullup Bank shot,0.4,0.0,0.4,0.6,0.0,0.6
+27,3,174,Pullup Jump shot,0.599,122,62,0.508,394,205,0.52,Shot Type,Pullup Jump shot,0.224,0.355,0.263,0.776,0.645,0.737
+28,0,174,Putback Dunk Shot,0.941,0,0,0.0,17,16,0.941,Shot Type,Putback Dunk Shot,0.0,0.0,0.0,1.0,0.0,1.0
+29,13,174,Putback Layup Shot,0.653,0,0,0.0,75,49,0.653,Shot Type,Putback Layup Shot,0.0,0.0,0.0,1.0,0.0,1.0
+30,0,174,Reverse Dunk Shot,1.0,0,0,0.0,2,2,1.0,Shot Type,Reverse Dunk Shot,1.0,0.0,1.0,0.0,0.0,0.0
+31,9,174,Reverse Layup Shot,0.523,0,0,0.0,44,23,0.523,Shot Type,Reverse Layup Shot,0.783,0.0,0.783,0.217,0.0,0.217
+32,0,174,Running Alley Oop Dunk Shot,1.0,0,0,0.0,7,7,1.0,Shot Type,Running Alley Oop Dunk Shot,1.0,0.0,1.0,0.0,0.0,0.0
+33,0,174,Running Alley Oop Layup Shot,1.0,0,0,0.0,1,1,1.0,Shot Type,Running Alley Oop Layup Shot,1.0,0.0,1.0,0.0,0.0,0.0
+34,0,174,Running Dunk Shot,1.0,0,0,0.0,29,29,1.0,Shot Type,Running Dunk Shot,0.724,0.0,0.724,0.276,0.0,0.276
+35,0,174,Running Finger Roll Layup Shot,0.611,0,0,0.0,18,11,0.611,Shot Type,Running Finger Roll Layup Shot,0.545,0.0,0.545,0.455,0.0,0.455
+36,7,174,Running Jump Shot,0.458,16,5,0.313,60,25,0.417,Shot Type,Running Jump Shot,0.25,1.0,0.4,0.75,0.0,0.6
+37,15,174,Running Layup Shot,0.739,0,0,0.0,119,88,0.739,Shot Type,Running Layup Shot,0.489,0.0,0.489,0.511,0.0,0.511
+38,0,174,Running Pull-Up Jump Shot,0.0,0,0,0.0,1,0,0.0,Shot Type,Running Pull-Up Jump Shot,0.0,0.0,0.0,0.0,0.0,0.0
+39,1,174,Running Reverse Layup Shot,0.6,0,0,0.0,25,15,0.6,Shot Type,Running Reverse Layup Shot,0.733,0.0,0.733,0.267,0.0,0.267
+40,0,174,Step Back Bank Jump Shot,0.333,0,0,0.0,3,1,0.333,Shot Type,Step Back Bank Jump Shot,0.0,0.0,0.0,1.0,0.0,1.0
+41,1,174,Step Back Jump shot,0.546,58,22,0.379,205,101,0.493,Shot Type,Step Back Jump shot,0.203,0.636,0.297,0.797,0.364,0.703
+42,0,174,Tip Dunk Shot,1.0,0,0,0.0,3,3,1.0,Shot Type,Tip Dunk Shot,0.333,0.0,0.333,0.667,0.0,0.667
+43,1,174,Tip Layup Shot,0.385,0,0,0.0,91,35,0.385,Shot Type,Tip Layup Shot,0.0,0.0,0.0,1.0,0.0,1.0
+44,0,174,Turnaround Bank Hook Shot,0.556,0,0,0.0,9,5,0.556,Shot Type,Turnaround Bank Hook Shot,0.6,0.0,0.6,0.4,0.0,0.4
+45,0,174,Turnaround Bank shot,0.44,1,0,0.0,25,11,0.44,Shot Type,Turnaround Bank shot,0.273,0.0,0.273,0.727,0.0,0.727
+46,0,174,Turnaround Fadeaway Bank Jump Shot,0.5,0,0,0.0,4,2,0.5,Shot Type,Turnaround Fadeaway Bank Jump Shot,0.0,0.0,0.0,1.0,0.0,1.0
+47,3,174,Turnaround Fadeaway shot,0.425,0,0,0.0,146,62,0.425,Shot Type,Turnaround Fadeaway shot,0.306,0.0,0.306,0.694,0.0,0.694
+48,2,174,Turnaround Hook Shot,0.433,0,0,0.0,30,13,0.433,Shot Type,Turnaround Hook Shot,0.308,0.0,0.308,0.692,0.0,0.692
+49,8,174,Turnaround Jump Shot,0.492,5,1,0.2,129,63,0.488,Shot Type,Turnaround Jump Shot,0.452,1.0,0.46,0.548,0.0,0.54

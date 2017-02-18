@@ -1,0 +1,76 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 19, 2016 - 20:02:05
+Django version 1.9.5, using settings 'BBallers.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+<WSGIRequest: POST '/predictorApp/postTeams/'>
+CLE DET
+('a', 7)
+CLE DET
+('a', 6)
+CLE DET
+('a', 7)
+CLE DET
+('a', 7)
+TOR IND
+('a', 4)
+TOR IND
+TOR IND
+('a', 5('a', 5)
+)
+TOR IND
+('b', 6)
+MIA CHA
+('b', 5)
+MIA CHA
+('b', 6)
+MIA CHA
+('b', 4)
+MIA CHA
+('a', 4)
+ATL BOS
+('a', 7)
+ATL BOS
+('a', 6)
+ATL BOS
+('a', 5)
+ATL BOS
+('a', 7)
+GSW HOU
+('a', 6)
+GSW HOU
+('a', 6)
+GSW HOU
+('a', 6)
+GSW HOU
+('a', 7)
+SAS MEM
+('a', 4)
+SAS MEM
+('a', 6)
+SAS MEM
+('a', 6)
+SAS MEM
+('a', 7)
+OKC DAL
+('a', 7)
+OKC DAL
+('a', 4)
+OKC DAL
+('a', 6)
+OKC DAL
+('a', 6)
+LAC POR
+('a', 7)
+{'winner': ['a', 'a', 'b', 'a', 'a', 'a', 'a', 'a'], 'games': [7, 4, 6, 7, 6, 4, 4, 7]}
+LAC POR
+('a', 7)
+{'winner': ['a', 'a', 'b', 'a', 'a', 'a', 'a', 'a'], 'games': [6, 5, 5, 6, 6, 6, 7, 7]}
+LAC POR
+('a', 6)
+{'winner': ['a', 'a', 'b', 'a', 'a', 'a', 'a', 'a'], 'games': [7, 5, 4, 5, 6, 6, 6, 6]}
+LAC POR
+('a', 5)
+{'winner': ['a', 'b', 'a', 'a', 'a', 'a', 'a', 'a'], 'games': [7, 6, 4, 7, 7, 7, 6, 5]}
